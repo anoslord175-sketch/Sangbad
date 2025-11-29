@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangbad - Stationery Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 { font-size: 40px; margin-bottom: 10px; }
+        header p { font-size: 18px; }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px 20px;
+            font-size: 18px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sangbad</h1>
+    <p>Your trusted stationery shop in Katwa – Notebooks, Pens, Colours, Boards & more</p>
+</header>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+
+        <!-- NOTEBOOKS -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800" alt="Notebooks">
+            <h3>Notebooks</h3>
+        </div>
+
+        <!-- PENS -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b03?w=800" alt="Pens">
+            <h3>Pens</h3>
+        </div>
+
+        <!-- BOARDS -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1509223197845-458d87318791?w=800" alt="Boards">
+            <h3>Boards</h3>
+        </div>
+
+        <!-- COLOURS -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1584270354949-1c1a9f7a19a9?w=800" alt="Colours">
+            <h3>Colours</h3>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p style="font-size: 18px; text-align:center;">
+        Sangbad is a trusted stationery shop offering all types of notebooks, pens, colours, office supplies, 
+        and school essentials. We provide quality products at affordable prices for students and professionals in Katwa.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+        <p><strong>Shop Name:</strong> Sangbad</p>
+        <p><strong>Phone:</strong> 9932334515</p>
+        <p><strong>Address:</strong> Katwa, Gunendranath Market, near Pourosova</p>
+        <p><strong>Timing:</strong> 9 AM – 9 PM</p>
+    </div>
+</section>
+
+<!-- WhatsApp Floating Button -->
+<a class="whatsapp-btn" href="https://wa.me/919932334515" target="_blank">
+    WhatsApp Us
+</a>
+
+<footer>
+    &copy; 2025 Sangbad Stationery Shop. All Rights Reserved.
+</footer>
+
+</body>
+</html>
